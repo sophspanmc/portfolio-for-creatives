@@ -89,33 +89,33 @@ html {
   --project-title-typeface: "Bungee Hairline", sans-serif;
   font-weight: 400;
   font-style: normal;
-  --background-color: #fdfdfd;
-  --background-color-about: #f5f5f5;
-  --background-color-footer: #f5f5f5;
+  --background-color: #fef9e7;
+  --background-color-about: #fef9e7;
+  --background-color-footer: #fef9e7;
   --alt-background-color: #000000;
   --background-color-holding-page: rgba(82, 0, 255, 0.6);
-  --h1-color: #0c0c0c;
-  --h2-color: #22b470da;
-  --h3-color: #5200ff;
-  --h4-color: #5200ff;
-  --h5-color: #5200ff;
-  --h6-color: #5200ff;
-  --primary-text-color: #222;
+  --h1-color: darkred;
+  --h2-color: darkred;
+  --h3-color: darkred;
+  --h4-color: darkred;
+  --h5-color: darkred;
+  --h6-color: darkred;
+  --primary-text-color: darkred;
   --holding-page-title-color: #ebedf0;
-  --accent-color: #5200ff;
-  --overlay-color: #5200ff;
-  --overlay-title-color: #ffffff;
-  --overlay-description-color: #ffffff;
-  --hyperlink-color: #5200ff;
+  --accent-color: #FF0000;
+  --overlay-color: darkred;
+  --overlay-title-color: #fef9e7;
+  --overlay-description-color: #fef9e7;
+  --hyperlink-color: #FF0000;
   --hyperlink-alternate-color: orangered;
-  --hover-color: #111;
-  --visited-color: #5200ff;
-  --project-title-color: #5200ff;
-  --project-sidebar-background-color: orangered;
-  --project-sidebar-text-color: white;
+  --hover-color: darkred;
+  --visited-color: #FF0000;
+  --project-title-color: #FF0000;
+  --project-sidebar-background-color: #fef9e7;
+  --project-sidebar-text-color: darkred;
   --heart-color: darkred;
-  --holding-page-footer-color: #f8f8ff;
-  --text-selection-background-color: #5200ff;
+  --holding-page-footer-color: #fef9e7;
+  --text-selection-background-color: #ffeb3b;
   --linear-gradient-color-1: #ff057c;
   --linear-gradient-color-2: #8d0b93;
   --linear-gradient-color-3: #321575;
@@ -245,6 +245,8 @@ a:visited {
 
 a:hover {
   color: var(--hover-color);
+  text-decoration: underline;
+  transition:linear;
 }
 
 a:focus {
@@ -509,10 +511,23 @@ a:active {
   grid-row: 4 / 5;
 }
 
+.footer-item-5 {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
 .awards-list {
   margin-bottom: 2rem;
 }
 
+.project-footer {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 3rem;
+  min-height: 100vh;
+  background: var(--background-color-footer);
+  padding: 1rem;
+}
 /* Project Page 
 
 ██████  ██████   ██████       ██ ███████  ██████ ████████     ██████   █████   ██████  ███████ 
@@ -532,7 +547,8 @@ a:active {
 /* Sidebar */
 .project-aside {
   width: 100%;
-  padding: 1rem;
+  padding: 3rem;
+  margin-right: 4rem;
   display: flex;
   flex-direction: column;
   color: var(--project-sidebar-text-color);
@@ -844,7 +860,7 @@ a:active {
   /* TODO: Add styles here for X-large devices. */
 
   .grid {
-    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(1080px, 1fr));
   }
 }
 
@@ -854,6 +870,6 @@ a:active {
   /* TODO: Add styles here for XX-large devices. */
 
   .grid {
-    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(1080px, 1fr));
   }
 }
