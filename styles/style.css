@@ -79,7 +79,7 @@ html {
 /* TODO: Adjust the variables below, create new variables as desired, and delete the variables that you do not want to use. */
 
 :root {
-  --body-typeface: "Work+Sans", 100;
+  --body-typeface: "Work+Sans", ital;
   --heading-typeface: "Bungee+Hairline";
   --project-title-typeface: "Bungee+Hairline";
   --background-color: #fdfdfd;
