@@ -79,7 +79,10 @@ html {
 /* TODO: Adjust the variables below, create new variables as desired, and delete the variables that you do not want to use. */
 
 :root {
-  --body-typeface: "Work+Sans",0,100..900;
+  --body-typeface: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
   --heading-typeface: "Bungee Hairline", sans-serif;
   font-weight: 400;
   font-style: normal;
