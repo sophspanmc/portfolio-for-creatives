@@ -89,12 +89,12 @@ html {
   --project-title-typeface: "Bungee Hairline", sans-serif;
   font-weight: 400;
   font-style: normal;
-  --background-color: #fef9e7;
-  --background-color-about: #fef9e7;
-  --background-color-footer: #fef9e7;
+  --background-color: #3366FF ;
+  --background-color-about: #3366FF;
+  --background-color-footer: #3366FF;
   --alt-background-color: #000000;
   --background-color-holding-page: rgba(82, 0, 255, 0.6);
-  --h1-color: darkred;
+  --h1-color: #3366FF;
   --h2-color: darkred;
   --h3-color: darkred;
   --h4-color: darkred;
@@ -103,13 +103,13 @@ html {
   --primary-text-color: darkred;
   --holding-page-title-color: #ebedf0;
   --accent-color: #FF0000;
-  --overlay-color: darkred;
+  --overlay-color: #3366FF;
   --overlay-title-color: #fef9e7;
   --overlay-description-color: #fef9e7;
   --hyperlink-color: #FF0000;
   --hyperlink-alternate-color: orangered;
   --hover-color: darkred;
-  --visited-color: #FF0000;
+  --visited-color: #FF0033;
   --project-title-color: #FF0000;
   --project-sidebar-background-color: #fef9e7;
   --project-sidebar-text-color: darkred;
@@ -121,6 +121,17 @@ html {
   --linear-gradient-color-3: #321575;
   --stroke-shadow-color: rgba(0, 0, 0, 0.4);
 }
+
+/*colour hex log
+#0d47a1 
+hero
+ #fef5e7
+ #283593
+ #330099
+  #000099 
+  #3366FF 
+
+*/
 
 body {
   font-family: var(--body-typeface);
@@ -328,6 +339,14 @@ a:active {
   min-height: 80vh;
   display: flex;
   flex-direction: column;
+}
+
+.sub-navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 1rem;
+  text-align: center;
 }
 
 .branding-navigation {
