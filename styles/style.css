@@ -91,7 +91,6 @@ html {
   font-style: normal;
   --subtitle-typeface: "Work Sans", sans-serif;
   font-weight: 600;
-  font-style: thin;
   --background-color: #bbdefb ;
   --background-color-about: #bbdefb;
   --background-color-footer: #bbdefb;
@@ -190,8 +189,9 @@ h2 {
 h3 {
   font-size: 1.325rem;
   font-family: var(--subtitle-typeface);
+  font-style: italic;
   margin-bottom: 1rem;
-  line-height: 1.3;
+  line-height: 1.3;s
   color: var(--h3-color);
 }
 
