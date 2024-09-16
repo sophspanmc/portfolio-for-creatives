@@ -172,7 +172,7 @@ svg {
 */
 
 h1 {
-  font-size: 10rem;
+  font-size: 5rem;
   font-family: var(--heading-typeface);
   margin-bottom: 1rem;
   color: var(--h1-color);
