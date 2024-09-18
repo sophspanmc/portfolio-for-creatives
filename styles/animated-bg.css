@@ -1,0 +1,5 @@
+.background-animation {
+  background-size: 400% 400%; 
+  background-image: url(assets/hero-page-animation/ArtWorkForWebsite);
+  height: 100vh; 
+}
