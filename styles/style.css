@@ -366,6 +366,7 @@ a:active {
 }
 
 .logo {
+  color: #FF0033;
   width: 3rem;
   /* TODO: Adjust the width of the logo on mobile devices here. */
 }
@@ -755,7 +756,8 @@ a:active {
   }
 
   .logo {
-    width: 5rem;
+    color: #FF0033;
+    width: 8rem;
     /* TODO: Adjust the width of the logo on large devices here. */
   }
 
