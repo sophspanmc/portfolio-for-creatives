@@ -97,26 +97,26 @@ html {
   --background-color-footer: #fef5e7;
   --alt-background-color: #000000;
   --background-color-holding-page: #fef5e7;
-  --h1-color: #FF0033;
-  --h2-color: #FF0033;
-  --h3-color: #FF0033;
-  --h4-color: darkred;
-  --h5-color: darkred;
-  --h6-color: darkred;
+  --h1-color: #3366FF;
+  --h2-color: #3366FF;
+  --h3-color: #3366FF;
+  --h4-color: #ffc107 ;
+  --h5-color: #ffc107 ;
+  --h6-color: #ffc107 ;
   --primary-text-color: #3366FF ;
-  --holding-page-title-color: #FF0033;
-  --accent-color: #FF0033;
-  --overlay-color: #FF0033;
+  --holding-page-title-color: #ffc107 ;
+  --accent-color: #ffc107 ;
+  --overlay-color: #3366FF;
   --overlay-title-color: #fef5e7;
   --overlay-description-color: #fef5e7;
-  --hyperlink-color: #FF0033;
+  --hyperlink-color: #ffc107 ;
   --hyperlink-alternate-color: orangered;
   --hover-color: #3366FF ;
-  --visited-color: #FF0033;
-  --project-title-color: #FF0033;
+  --visited-color: #ffc107 ;
+  --project-title-color: #ffc107;
   --project-sidebar-background-color: #fef5e7;
   --project-sidebar-text-color: #3366FF;
-  --heart-color: darkred;
+  --heart-color: #3366FF;
   --holding-page-footer-color: #fef5e7;
   --text-selection-background-color: #FF0033;
   --linear-gradient-color-1: #ff057c;
@@ -185,7 +185,7 @@ h2 {
   font-size: 2.25rem;
   font-family: var(--heading-typeface);
   margin-bottom: 1rem;
-  color: var(--h2-color);
+  color: var(--h2-color);=
 }
 
 h3 {
@@ -345,6 +345,15 @@ a:active {
                                  
 */
 
+
+
+.background-hero-animation {
+background: url(../assets/hero-page-animation/sophia-spanos-mcgill-sunset-animation-digital-illustration-bike.svg);
+background-repeat: no-repeat;
+background-size: cover;
+
+
+}
 .hero {
   min-height: 120vh;
   display: flex;
@@ -381,6 +390,7 @@ a:active {
   justify-content: center;
   padding: 2rem 4rem;
   text-align: center;
+  height: 100vh;
 }
 
 
@@ -848,22 +858,23 @@ a:active {
 
   /* Project Page Flex Direction on Large Devices */
   .project-wrapper {
-    flex-direction: row;
+    flex-direction: column;
+
   }
 
   /* Sidebar on Large Devices */
   .project-aside {
-    width: 35%;
-    height: 65vh;
-    position: -webkit-sticky;
+    width: 100%;
+    /* height: 65vh; */
+    /* position: -webkit-sticky;
     position: sticky;
-    top: 5vh;
+    top: 5vh; */
     padding-right: 2rem;
   }
 
   /* Main Project Image Area on Large Devices */
   .project-details {
-    width: 65%;
+    width: 100%;
   }
 
   .project-image {
