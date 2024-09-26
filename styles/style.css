@@ -770,6 +770,8 @@ background-size: cover;
 
   .logo {
     width: 8rem;
+    transition: 200ms;
+  transition-timing-function: ease-in-out;
   }
 
   .empty {
