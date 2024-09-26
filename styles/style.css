@@ -378,13 +378,10 @@ background-size: cover;
 
 .logo {
   width: 3rem;
-  
   /* TODO: Adjust the width of the logo on mobile devices here. */
 }
 
-.logo:hover{
-  color:#ffc107 
-}
+
 
 .hero-headline-wrapper {
   display: flex;
@@ -772,9 +769,18 @@ background-size: cover;
   }
 
   .logo {
-    color: #FF0033;
+    fill: #FF0033;
     width: 8rem;
-    /* TODO: Adjust the width of the logo on large devices here. */
+    transition: 200ms;
+    transition-timing-function: ease-in-out;
+  }
+
+  .empty {
+    fill: none;
+  }
+  
+  .logo:hover {
+    fill: #ffc107;
   }
 
   .hero {
