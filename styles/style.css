@@ -768,23 +768,16 @@ background-size: cover;
     font-size: 1.625rem;
   }
 
-  .logo {
+  logo {
     width: 8rem;
     transition: 200ms;
   transition-timing-function: ease-in-out;
   }
 
-  a#logo:hover{
-    color: black;
-  }
-  
-  .empty {
-    fill: none;
-  }
-  
-  .logo:hover {
+  logo:hover{
     fill: #ffc107;
   }
+
 
   .hero {
     min-height: 100vh;
