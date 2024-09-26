@@ -768,14 +768,14 @@ background-size: cover;
     font-size: 1.625rem;
   }
 
-  logo {
+  .logo {
     width: 8rem;
     transition: 200ms;
   transition-timing-function: ease-in-out;
   }
 
-  logo:hover{
-    fill: #ffc107;
+  .logo:hover{
+    fill-opacity:var(--hyperlink-color);
   }
 
 
