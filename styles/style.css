@@ -377,9 +377,13 @@ background-size: cover;
 }
 
 .logo {
-  color: #FF0033;
   width: 3rem;
+  
   /* TODO: Adjust the width of the logo on mobile devices here. */
+}
+
+.logo:hover{
+  color:#ffc107 
 }
 
 .hero-headline-wrapper {
