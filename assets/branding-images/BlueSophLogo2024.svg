@@ -4,6 +4,7 @@
     <style>
       .cls-1 {
         fill: #36f;
+        hover; black; 
       }
     </style>
   </defs>
