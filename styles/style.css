@@ -769,10 +769,7 @@ background-size: cover;
   }
 
   .logo {
-    fill: #FF0033;
     width: 8rem;
-    transition: 200ms;
-    transition-timing-function: ease-in-out;
   }
 
   .empty {
