@@ -110,6 +110,7 @@ html {
   --overlay-title-color: #fef5e7;
   --overlay-description-color: #fef5e7;
   --hyperlink-color: #ffc107 ;
+  --logo-hover-color: black ;
   --hyperlink-alternate-color: orangered;
   --hover-color: #3366FF ;
   --visited-color: #ffc107 ;
@@ -774,9 +775,7 @@ background-size: cover;
   transition-timing-function: ease-in-out;
   }
 
-  .logo:hover{
-   
-  }
+  
 
 
   .hero {
