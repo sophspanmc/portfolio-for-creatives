@@ -901,7 +901,7 @@ background-size: cover;
   }
 
   .grid {
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(900px, 1fr));
     grid-gap: 1rem;
   }
 
@@ -915,14 +915,6 @@ background-size: cover;
     filter: grayscale(0);
   }
 
-  .work-page-central{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-content: center;
-    padding: 20, 15,20,15;
-    text-align: center;
-  }
 
   .about {
     padding: 4rem;
