@@ -217,6 +217,15 @@ h6 {
   color: var(--h6-color);
 }
 
+h7 {
+  font-size: 10rem;
+  font-family: var(--heading-typeface);
+  float:right;
+  margin-bottom: 1rem;
+  color: var(--h1-color);
+  line-height: 6.5rem;
+}
+
 p {
   font-size: 1rem;
   font-family: var(--body-typeface);
