@@ -177,11 +177,11 @@ svg {
 */
 
 h1 {
-  font-size: 13rem;
+  font-size: 10rem;
   font-family: var(--heading-typeface);
   margin-bottom: 1rem;
   color: var(--h1-color);
-  line-height: 10rem;
+  line-height: 6rem;
 }
 
 h2 {
