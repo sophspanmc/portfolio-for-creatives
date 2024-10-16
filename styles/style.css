@@ -839,6 +839,7 @@ background-size: cover;
 
   .hero-headline-wrapper {
     padding: 4rem 8rem;
+    text-align: right;
   }
 
   .grid {
