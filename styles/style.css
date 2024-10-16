@@ -864,8 +864,8 @@ background-size: cover;
   }
 
   h1 {
-    font-size: 8rem;
-    line-height: 10rem;
+    font-size: 7rem;
+    line-height: 9rem;
   }
 
   h2 {
@@ -1033,7 +1033,7 @@ background-size: cover;
   /* TODO: Add styles here for X-large devices. */
 
   .grid {
-    grid-template-columns: repeat(auto-fit, minmax(1920px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(1000px, 1fr));
   }
 }
 
