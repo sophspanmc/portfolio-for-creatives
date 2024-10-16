@@ -434,7 +434,7 @@ background-size: cover;
   align-items: center;
   justify-content: center;
   padding: 2rem 4rem;
-  text-align: center;
+  text-align: left;
   height: 100vh;
 }
 
