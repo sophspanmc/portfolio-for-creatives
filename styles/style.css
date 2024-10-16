@@ -181,7 +181,7 @@ h1 {
   font-family: var(--heading-typeface);
   margin-bottom: 1rem;
   color: var(--h1-color);
-  line-height: 6rem;
+  line-height: 10rem;
 }
 
 h2 {
