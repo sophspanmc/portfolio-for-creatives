@@ -83,10 +83,10 @@ html {
   --body-typeface: "Work Sans", sans-serif;
   font-weight: 100;
   font-style: normal;
-  --heading-typeface: "Bahiana", sans-serif;
-  font-weight: 100;
+  --heading-typeface: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
   font-style: normal;
-  font-style: thin;
   --project-title-typeface: "Work Sans", sans-serif;
   font-weight: 600;
   font-style: thin;
