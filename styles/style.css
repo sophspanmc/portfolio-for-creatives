@@ -397,11 +397,12 @@ background-size: cover;
 .hero-headline-wrapper {
   display: flex;
   flex-direction: column;
+  margin-left: auto;
   flex: 1;
   align-items: center;
   justify-content: center;
   padding: 2rem 4rem;
-  text-align: left;
+  text-align: center;
   height: 100vh;
 }
 
