@@ -529,7 +529,7 @@ background-size: cover;
 
 .work-page-grid-item:hover .overlay {
   visibility: visible;
-  opacity: 1.5;
+  opacity: 0.9;
 }
 .photo > img {
   object-fit: cover;
