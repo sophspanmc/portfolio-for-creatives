@@ -428,7 +428,7 @@ background-size: cover;
   align-items: center;
   justify-content: center;
   padding: 2rem 4rem;
-  text-align: left;
+  text-align: center;
   height: 100vh;
 }
 
@@ -818,6 +818,7 @@ background-size: cover;
 @media (min-width: 300px) {
   h1 {
     font-size: 3rem;
+    line-height: 4rem;
   }
 }
 
@@ -858,7 +859,7 @@ background-size: cover;
 
   .hero-headline-wrapper {
     padding: 8rem 8rem;
-    text-align: right;
+    text-align: center;
   }
 
   .grid {
