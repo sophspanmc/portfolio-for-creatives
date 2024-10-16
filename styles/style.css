@@ -591,6 +591,7 @@ background-size: cover;
   grid-template-columns: 1fr;
   grid-gap: 3rem;
   min-height: 50vh;
+  max-height: 50vh;
   background: var(--background-color-footer);
   padding-top: 2rem;
   padding-left: 1rem;
