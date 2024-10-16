@@ -81,16 +81,17 @@ html {
 
 :root {
   --body-typeface: "Work Sans", sans-serif;
-  font-weight: <100>;
+  font-weight: 100;
   font-style: normal;
-  --heading-typeface: "Work Sans", sans-serif;
-  font-weight: <800>;
+  --heading-typeface: "Bahiana", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   font-style: thin;
   --project-title-typeface: "Work Sans", sans-serif;
-  font-weight: <600>;
+  font-weight: 600;
   font-style: thin;
   --subtitle-typeface: "Work Sans", sans-serif;
-  font-weight: <200>;
+  font-weight: 200;
   font-style: thin; 
   --background-color: #fef5e7;
   --background-color-about: #fef5e7;
