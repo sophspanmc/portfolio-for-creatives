@@ -494,6 +494,15 @@ background-size: cover;
   /* Required to contain overlay size */
 }
 
+.work-page-central{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: center;
+  padding: 20, 15,20,15;
+  text-align: center;
+}
+
 /* Overlay */
 .overlay {
   position: absolute;
