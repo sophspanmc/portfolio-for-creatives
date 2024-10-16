@@ -398,10 +398,10 @@ background-size: cover;
   display: flex;
   flex-direction: column;
   flex: 1;
-  align-items: left;
+  align-items: center;
   justify-content: center;
   padding: 2rem 4rem;
-  text-align: center;
+  text-align: left;
   height: 100vh;
 }
 
