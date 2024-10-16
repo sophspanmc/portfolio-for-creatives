@@ -810,7 +810,7 @@ background-size: cover;
 
 @media (min-width: 768px) {
   h1 {
-    font-size: 5rem;
+    font-size: 7rem;
   }
   /* TODO: Add styles here for medium devices. */
 }
