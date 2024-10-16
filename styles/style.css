@@ -1033,7 +1033,7 @@ background-size: cover;
   /* TODO: Add styles here for X-large devices. */
 
   .grid {
-    grid-template-columns: repeat(auto-fit, minmax(1000px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
   }
 }
 
