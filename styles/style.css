@@ -815,6 +815,13 @@ background-size: cover;
   /* TODO: Add styles here for medium devices. */
 }
 
+@media (min-width: 500px) {
+  h1 {
+    font-size: 3rem;
+  }
+}
+
+
 /* Large devices (desktops, 992px and up) */
 
 @media (min-width: 992px) {
