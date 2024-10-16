@@ -375,14 +375,15 @@ a:active {
 */
 
 
-
+/*
 .background-hero-animation {
 background: url(../assets/hero-page-animation/sophia-spanos-mcgill-sunset-animation-digital-illustration-bike.svg);
 background-repeat: no-repeat;
 background-size: cover;
-
-
 }
+*/ 
+
+
 .hero {
   min-height: 120vh;
   display: flex;
