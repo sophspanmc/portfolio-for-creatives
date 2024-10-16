@@ -745,6 +745,10 @@ background-size: cover;
   color: var(--holding-page-title-color);
 }
 
+.holding-page-inner-container{
+  align-items: center;
+}
+
 .holding-page-footer {
   display: grid;
   place-items: center;
