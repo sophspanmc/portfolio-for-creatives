@@ -262,6 +262,10 @@ em {
   color: var(--overlay-description-color);
 }
 
+.h7:hover:.overlay {
+  color: #8d0b93;
+}
+
 /* Hyperlink Styles */
 
 a:link {
