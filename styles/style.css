@@ -93,33 +93,33 @@ html {
   --subtitle-typeface: "Work Sans", sans-serif;
   font-weight: 200;
   font-style: thin; 
-  --background-color: #fef5e7;
-  --background-color-about: #fef5e7;
-  --background-color-footer: #fef5e7;
+  --background-color: #FFFCEF;
+  --background-color-about: #FFFCEF;
+  --background-color-footer: #FFFCEF;
   --alt-background-color: #000000;
-  --background-color-holding-page: #fef5e7;
-  --h1-color: #3366FF;
-  --h2-color: #3366FF;
-  --h3-color: #3366FF;
-  --h4-color: #ffc107 ;
-  --h5-color: #ffc107 ;
-  --h6-color: #ffc107 ;
-  --primary-text-color: #3366FF ;
-  --holding-page-title-color: #ffc107 ;
-  --accent-color: #ffc107 ;
-  --overlay-color: #3366FF;
-  --overlay-title-color: #fef5e7;
-  --overlay-description-color: #fef5e7;
-  --hyperlink-color: #ffc107 ;
+  --background-color-holding-page: #FFFCEF;
+  --h1-color: #D31919;
+  --h2-color: #D31919;
+  --h3-color: #D31919;
+  --h4-color: #D31919 ;
+  --h5-color: #D31919 ;
+  --h6-color: #D31919 ;
+  --primary-text-color: darkgrey ;
+  --holding-page-title-color: #3366FF ;
+  --accent-color: #3366FF ;
+  --overlay-color: #D31919;
+  --overlay-title-color: #FFFCEF;
+  --overlay-description-color: #FFFCEF;
+  --hyperlink-color: #3366FF ;
   --logo-hover-color: black ;
   --hyperlink-alternate-color: orangered;
-  --hover-color: #3366FF ;
-  --visited-color: #ffc107 ;
-  --project-title-color: #ffc107;
-  --project-sidebar-background-color: #fef5e7;
+  --hover-color: #D31919 ;
+  --visited-color: #3366FF ;
+  --project-title-color: #3366FF;
+  --project-sidebar-background-color: #FFFCEF;
   --project-sidebar-text-color: #3366FF;
-  --heart-color: #3366FF;
-  --holding-page-footer-color: #fef5e7;
+  --heart-color: #D31919;
+  --holding-page-footer-color: #FFFCEF;
   --text-selection-background-color: #FF0033;
   --linear-gradient-color-1: #ff057c;
   --linear-gradient-color-2: #8d0b93;
@@ -136,6 +136,8 @@ hero
   #000099 
   #3366FF 
 
+  #D31919
+#3366FF
 */
 
 body {
