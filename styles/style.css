@@ -808,11 +808,26 @@ background-size: cover;
 
 /* Medium devices (tablets, 768px and up) */
 
-@media (min-width: 768px) {
+@media (min-width: 500px) {
   h1 {
     font-size: 7rem;
+    line-height: 8rem;
   }
-  /* TODO: Add styles here for medium devices. */
+  .hero-headline-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 2rem;
+    text-align: center;
+    height: 50vh;
+  }
+  .footer-item-4 {
+    grid-row: 2 / 3;
+    grid-column: 1 / 4;
+    text-align: center;
+  }
 }
 
 @media (min-width: 200px) {
