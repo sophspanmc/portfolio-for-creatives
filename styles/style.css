@@ -728,6 +728,7 @@ background-size: cover;
   grid-template-rows: 1fr auto;
   place-items: center;
   text-align: center;
+  align-items: center;
   width: 100%;
   min-height: 100vh;
   /* TODO: Delete the following if you do not want a grainy gradient background on index.html. Be careful not to delete the closing } */
