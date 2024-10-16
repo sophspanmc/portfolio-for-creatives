@@ -805,7 +805,9 @@ background-size: cover;
 /* Medium devices (tablets, 768px and up) */
 
 @media (min-width: 768px) {
-  h1 {5rem}
+  h1 {
+    font-size: 5rem;
+  }
   /* TODO: Add styles here for medium devices. */
 }
 
