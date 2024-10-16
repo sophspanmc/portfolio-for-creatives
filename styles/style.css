@@ -592,7 +592,10 @@ background-size: cover;
   grid-gap: 3rem;
   min-height: 50vh;
   background: var(--background-color-footer);
-  padding: 1rem;
+  padding-top: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
 }
 
 .footer-item-1 {
