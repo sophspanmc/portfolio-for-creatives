@@ -901,7 +901,7 @@ background-size: cover;
   }
 
   .grid {
-    grid-template-columns: repeat(auto-fit, minmax(900px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(990px, 1fr));
     grid-gap: 1rem;
   }
 
@@ -1025,7 +1025,7 @@ background-size: cover;
   /* TODO: Add styles here for X-large devices. */
 
   .grid {
-    grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(1200px, 1fr));
   }
 }
 
@@ -1035,6 +1035,6 @@ background-size: cover;
   /* TODO: Add styles here for XX-large devices. */
 
   .grid {
-    grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(1400px, 1fr));
   }
 }
