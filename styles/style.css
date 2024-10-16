@@ -262,6 +262,12 @@ em {
   color: var(--overlay-description-color);
 }
 
+h2:hover {
+    color: var(--hover-color);
+    text-decoration: underline;
+    transition:linear;
+}
+
 h3:hover {
   opacity: 0.2;
     transition: 0.3s;
