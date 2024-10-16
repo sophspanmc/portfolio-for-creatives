@@ -590,7 +590,7 @@ background-size: cover;
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 3rem;
-  min-height: 100vh;
+  min-height: 50vh;
   background: var(--background-color-footer);
   padding: 1rem;
 }
