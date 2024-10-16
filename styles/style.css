@@ -844,7 +844,7 @@ background-size: cover;
     flex-direction: column;
     justify-content: space-between;
     align-content: center;
-    padding: 15rem;
+    padding: 20, 15,20,15;
     text-align: center;
   }
 
