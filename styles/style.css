@@ -842,7 +842,10 @@ background-size: cover;
   .work-page-central{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;}
+    justify-content: space-between;
+    align-content: center;
+    padding: 5rem;
+  }
 
   .about {
     padding: 4rem;
