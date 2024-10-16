@@ -873,8 +873,14 @@ background-size: cover;
   }
 
   .hero-headline-wrapper {
-    padding: 8rem 8rem;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 4rem;
     text-align: center;
+    height: 100vh;
   }
 
   .grid {
