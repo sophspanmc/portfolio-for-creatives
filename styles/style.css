@@ -105,8 +105,8 @@ html {
   --h5-color: #D31919 ;
   --h6-color: #D31919 ;
   --primary-text-color: #D31919 ;
-  --holding-page-title-color: #3366FF ;
-  --accent-color: #3366FF ;
+  --holding-page-title-color: #708090 ;
+  --accent-color: #708090 ;
   --overlay-color: #D31919;
   --overlay-title-color: #FFFCEF;
   --overlay-description-color: #FFFCEF;
@@ -114,7 +114,7 @@ html {
   --logo-hover-color: black ;
   --hyperlink-alternate-color: orangered;
   --hover-color: #D31919 ;
-  --visited-color: orange;
+  --visited-color: #708090;
   --project-title-color: #3366FF;
   --project-sidebar-background-color: #FFFCEF;
   --project-sidebar-text-color: #3366FF;
@@ -264,15 +264,15 @@ em {
 }
 
 h1:hover{
-  color: #3366FF;
+  color: #708090;
 }
 
 h2:hover{
-  color: #3366FF;
+  color: #708090;
 }
 
 h3:hover {
-color: #3366FF;
+color: #708090;
 }
 
 /*
