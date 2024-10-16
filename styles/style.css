@@ -844,7 +844,7 @@ background-size: cover;
     flex-direction: column;
     justify-content: space-between;
     align-content: center;
-    padding: 5rem;
+    padding: 15rem;
   }
 
   .about {
