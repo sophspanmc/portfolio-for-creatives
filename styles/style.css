@@ -274,6 +274,7 @@ h1:hover{
     transition-duration: 170ms;
     transition-timing-function: ease-in-out;
     transition-delay: 0s;
+  color: #3366FF;
 }
 
 h2:hover{
