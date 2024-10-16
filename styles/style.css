@@ -815,7 +815,7 @@ background-size: cover;
   /* TODO: Add styles here for medium devices. */
 }
 
-@media (min-width: 300px) {
+@media (min-width: 200px) {
   h1 {
     font-size: 3rem;
     line-height: 4rem;
