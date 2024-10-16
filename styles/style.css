@@ -262,7 +262,7 @@ em {
   color: var(--overlay-description-color);
 }
 
-.h7:hover:.overlay {
+.h7:hover {
   color: #8d0b93;
 }
 
