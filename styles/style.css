@@ -111,7 +111,7 @@ html {
   --overlay-title-color: #FFFCEF;
   --overlay-description-color: #FFFCEF;
   --hyperlink-color: #D31919 ;
-  --logo-hover-color: black ;
+  --logo-hover-color: #D31919  ;
   --hyperlink-alternate-color: orangered;
   --hover-color: #708090 ;
   --visited-color: #708090;
@@ -835,7 +835,7 @@ background-size: cover;
 
 @media (min-width: 600px) {
   h1 {
-    font-size: 7rem;
+    font-size: 5rem;
     line-height: 8rem;
   }
   .hero-headline-wrapper {
