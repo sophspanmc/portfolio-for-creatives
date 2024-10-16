@@ -175,12 +175,11 @@ svg {
 */
 
 h1 {
-  font-size: 5rem;
+  font-size: 9rem;
   font-family: var(--heading-typeface);
-  font-style: thin;
   margin-bottom: 1rem;
   color: var(--h1-color);
-  line-height: 6.5rem;
+  line-height: 10rem;
 }
 
 h2 {
@@ -262,10 +261,8 @@ em {
   color: var(--overlay-description-color);
 }
 
-h2:hover {
-    color: var(--hover-color);
-    text-decoration: underline;
-    transition:linear;
+h1:hover{
+  transform: scale(1.5);
 }
 
 h3:hover {
