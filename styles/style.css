@@ -609,6 +609,7 @@ background-size: cover;
   grid-column: 1 / 2;
   grid-row: 2 / 3;
   text-align: center;
+  padding: 1rem;
 }
 
 .footer-item-3 {
