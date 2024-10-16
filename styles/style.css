@@ -476,6 +476,7 @@ background-size: cover;
 .portfolio,
 .project-wrapper {
   padding: 0.25rem;
+  border-radius: 25px;
 }
 
 /* Defining the work page grid */
