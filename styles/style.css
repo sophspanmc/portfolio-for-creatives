@@ -278,7 +278,7 @@ h1:hover{
 }
 
 h2:hover{
-  transform:unset;
+  color: #3366FF;
 }
 
 h3:hover {
