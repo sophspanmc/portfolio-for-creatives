@@ -839,6 +839,11 @@ background-size: cover;
     filter: grayscale(0);
   }
 
+  .work-page-central{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;}
+
   .about {
     padding: 4rem;
     grid-template-columns: 1fr 1fr 1fr;
