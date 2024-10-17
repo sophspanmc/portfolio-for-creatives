@@ -394,8 +394,13 @@ background: url(../assets/hero-page-animation/sophia-spanos-mcgill-sunset-animat
 background-repeat: no-repeat;
 background-size: cover;
 }
-*/ 
+*/
 
+.bckground-hero-image{
+  background: url(../assets/branding-images/sophiaspanosmcgill_heropage_illustration.jpg);
+  background-repeat: no-repeat;
+background-size: cover;
+}
 
 .hero {
   min-height: 120vh;
