@@ -1,12 +1,12 @@
 :root {
-  --gradient: linear-gradient(-45deg, #fef5e7;, #fef5e7;);
+  --gradient: linear-gradient(-45deg, #D31919;, #FFFCEF;);
 }
 
 .gradient-animation {
   background-size: 400% 400%;
   background-image: var(--gradient);
   animation: bg-animation 90s ease infinite;
-  height: 100vh;
+  height: 140vh;
 }
 
 @keyframes bg-animation {
