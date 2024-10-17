@@ -675,7 +675,7 @@ background-size: cover;
   display: flex;
   flex-direction: row;
   flex: 1;
-  align-items: flex-end;
+  align-items: center;
   justify-content: space-between;
 }
 
