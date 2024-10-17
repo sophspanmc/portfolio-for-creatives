@@ -475,6 +475,7 @@ background-size: cover;
 .portfolio,
 .project-wrapper {
   padding: 0.25rem;
+  align-items: center;
   
 }
 
