@@ -252,6 +252,8 @@ em {
   font-family: var(--project-title-typeface);
   color: var(--project-title-color);
   margin-bottom: 1rem;
+  padding: 2rem;
+  text-align: center;
 }
 
 .overlay-title {
@@ -369,6 +371,7 @@ a:active {
   line-height: 1.2;
   margin-bottom: 1rem;
   padding: 2rem;
+  text-align: center;
 }
 
 
