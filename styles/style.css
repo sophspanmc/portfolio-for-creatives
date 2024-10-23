@@ -82,9 +82,9 @@ html {
   --heading-typeface: "Work Sans", sans-serif;
   --project-title-typeface: "Work Sans", sans-serif;
   --subtitle-typeface: "Work Sans", sans-serif;
-  --background-color: #fffcef;
+  --background-color: white;
   --background-color-about: #fffcef;
-  --background-color-footer: yellow;
+  --background-color-footer: grey;
   --alt-background-color: #000000;
   --background-color-holding-page: #fffcef;
   --h1-color: #d31919;
@@ -105,7 +105,7 @@ html {
   --hover-color: #708090;
   --visited-color: #708090;
   --project-title-color: #d31919;
-  --project-sidebar-background-color: #fffcef;
+  --project-sidebar-background-color: linear-gradient(blue, white);
   --project-sidebar-text-color: #d31919;
   --heart-color: #d31919;
   --holding-page-footer-color: #fffcef;
