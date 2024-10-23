@@ -459,6 +459,8 @@ background-size: cover;
 
 .fade-in-photo {
   animation: fadeIn 5s;
+  transition: 0.75s ease;
+  transition: opacity 0.3s, visibility 0.3s;
 }
 
 @keyframes fadeIn {
