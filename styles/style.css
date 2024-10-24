@@ -461,17 +461,22 @@ background-size: cover;
 }
 
 .fade-in-photo {
-  animation: fadeIn 5s;
-  transition: 0.75s ease;
-  transition: opacity 0.3s, visibility 0.3s;
+  height: auto;
 }
 
-@keyframes fadeIn {
+@keyframes enter-animation {
   0% {
+    transform: translateY(100px);
     opacity: 0;
   }
   100% {
+    transform: translateY(0);
     opacity: 1;
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .image-animation {
+    animation: enter-animation 0.8s 1;
   }
 }
 
