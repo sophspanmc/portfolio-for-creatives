@@ -96,7 +96,7 @@ html {
   --primary-text-color: #f0f0c9;
   --holding-page-title-color: #d31919;
   --accent-color: #f24333;
-  --overlay-color: linear-gradient (#2c51d7, #f0f0c9);
+  --overlay-color: #f0f0c9;
   --overlay-title-color: #2c51d7;
   --overlay-description-color: #124e78;
   --hyperlink-color: #f0f0c9;
@@ -546,8 +546,8 @@ background-size: cover;
 }
 
 .work-page-grid-item:hover .overlay {
-  visibility: visible;
-  opacity: 1;
+  visibility:
+  opacity: 0.9; 
 }
 .photo > img {
   object-fit: cover;
