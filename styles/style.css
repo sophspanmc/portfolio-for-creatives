@@ -82,7 +82,7 @@ html {
   --heading-typeface: "Work Sans", sans-serif;
   --project-title-typeface: "Work Sans", sans-serif;
   --subtitle-typeface: "Work Sans", sans-serif;
-  --background-color: #124e78;
+  --background-color: #52489c;
   --background-color-about: #f0f0c9;
   --background-color-footer: #124e78;
   --alt-background-color: #000000;
@@ -102,11 +102,11 @@ html {
   --hyperlink-color: #d31919;
   --logo-hover-color: #d31919;
   --hyperlink-alternate-color: orangered;
-  --hover-color: #708090;
+  --hover-color: #f24333;
   --visited-color: #708090;
-  --project-title-color: #d31919;
+  --project-title-color: #f0f0c9;
   --project-sidebar-background-color: #f0f0c9;
-  --project-sidebar-text-color: #d31919;
+  --project-sidebar-text-color: #f0f0c9;
   --heart-color: #d31919;
   --holding-page-footer-color: #fffcef;
   --text-selection-background-color: #ff0033;
