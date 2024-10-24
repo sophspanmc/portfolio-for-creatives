@@ -97,7 +97,7 @@ html {
   --holding-page-title-color: #d31919;
   --accent-color: #f24333;
   --overlay-color: #f0f0c9;
-  --overlay-title-color: #124e78;
+  --overlay-title-color: #2c51d7;
   --overlay-description-color: #124e78;
   --hyperlink-color: #f0f0c9;
   --logo-hover-color: #d31919;
@@ -238,6 +238,7 @@ em {
 .overlay-title {
   font-size: 2.875rem;
   color: var(--overlay-title-color);
+  text-transform: uppercase;
 }
 
 .overlay-description {
