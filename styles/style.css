@@ -82,7 +82,7 @@ html {
   --heading-typeface: "Work Sans", sans-serif;
   --project-title-typeface: "Work Sans", sans-serif;
   --subtitle-typeface: "Work Sans", sans-serif;
-  --background-color: #52489c;
+  --background-color: #5762d5;
   --background-color-about: #f0f0c9;
   --background-color-footer: #124e78;
   --alt-background-color: #000000;
@@ -99,7 +99,7 @@ html {
   --overlay-color: #f0f0c9;
   --overlay-title-color: #124e78;
   --overlay-description-color: #124e78;
-  --hyperlink-color: #d31919;
+  --hyperlink-color: #f0f0c9;
   --logo-hover-color: #d31919;
   --hyperlink-alternate-color: orangered;
   --hover-color: #f24333;
@@ -244,6 +244,7 @@ em {
   color: var(--overlay-description-color);
 }
 
+/*
 h1:hover {
   color: #708090;
 }
@@ -255,7 +256,7 @@ h2:hover {
 h3:hover {
   color: #708090;
 }
-
+*/
 /*
   opacity: 0.2;
     transition: 0.3s;
