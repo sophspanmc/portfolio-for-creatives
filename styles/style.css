@@ -365,6 +365,7 @@ a:active {
   text-align: center;
   font-weight: 400;
   color: var(--accent-color);
+  text-transform: uppercase;
 }
 .project-description {
   font-size: 1.525rem;
