@@ -462,6 +462,7 @@ background-size: cover;
 
 .fade-in-photo {
   height: auto;
+  animation-name: enter-animation;
 }
 
 @keyframes enter-animation {
