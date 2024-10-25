@@ -397,8 +397,8 @@ background-size: cover;
 }
 */
 
-.bckground-hero-image {
-  background: url(../assets/branding-images/sophiaspanosmcgill_heropage_illustration.jpg);
+.background-hero-image {
+  background: url(../assets/branding-images/SELFPORTRAIT.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -423,9 +423,11 @@ background-size: cover;
   justify-content: space-between;
   padding: 2rem;
   align-items: flex-start;
-  background-color: #f0f0c9;
+  /*background-color: #f0f0c9;*/
   margin: 2.5rem;
+  border-width: 2rem;
   border-radius: 20rem;
+  stroke-width: 2rem;
 }
 
 .logo {
@@ -507,7 +509,7 @@ background-size: cover;
 .project-wrapper {
   padding: 1rem;
   background-color: #f0f0c9;
-  margin: 2.5rem;
+  margin: 0, 2.5rem;
   border-radius: 10rem;
   align-items: center;
   justify-content: center;
