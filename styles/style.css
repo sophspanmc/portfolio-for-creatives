@@ -419,7 +419,7 @@ background-size: cover;
 
 .branding-navigation {
   display: flex;
-  flex-direction: row;
+  flex-direction: ;
   justify-content: space-between;
   padding: 2rem;
   align-items: flex-start;
