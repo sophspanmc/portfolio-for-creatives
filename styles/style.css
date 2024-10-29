@@ -94,7 +94,7 @@ html {
   --h5-color: #f0f0c9;
   --h6-color: #f0f0c9;
   --primary-text-color: #2c51d7;
-  --holding-page-title-color: #d31919;
+  --holding-page-title-color: #2c51d7;
   --accent-color: #f24333;
   --overlay-color: #f0f0c9;
   --overlay-title-color: #2c51d7;
@@ -108,7 +108,7 @@ html {
   --project-sidebar-background-color: #f0f0c9;
   --project-sidebar-text-color: #f0f0c9;
   --heart-color: #d31919;
-  --holding-page-footer-color: #fffcef;
+  --holding-page-footer-color: #f0f0c9;
   --text-selection-background-color: #ff0033;
   --linear-gradient-color-1: #ff057c;
   --linear-gradient-color-2: #8d0b93;
@@ -398,6 +398,12 @@ background-size: cover;
 */
 
 .background-hero-image {
+  background: url(../assets/branding-images/SELFPORTRAIT.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.index-splashart {
   background: url(../assets/branding-images/SELFPORTRAIT.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -770,6 +776,12 @@ background-size: cover;
                                                        
 */
 
+.holding-page {
+  background: url(../assets/branding-images/SELFPORTRAIT.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .holding-page-wrapper {
   display: grid;
   grid-template-columns: 1fr;
@@ -780,6 +792,9 @@ background-size: cover;
   width: 100%;
   min-height: 100vh;
   /* TODO: Delete the following if you do not want a grainy gradient background on index.html. Be careful not to delete the closing } */
+  background: url(../assets/branding-images/SELFPORTRAIT.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   background-color: var(--background-color-holding-page);
 }
 
