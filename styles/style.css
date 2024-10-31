@@ -104,7 +104,7 @@ html {
   --hyperlink-alternate-color: orangered;
   --hover-color: #f24333;
   --visited-color: #698aff;
-  --project-title-color: #f0f0c9;
+  --project-title-color: #2c51d7;
   --project-sidebar-background-color: #f0f0c9;
   --project-sidebar-text-color: #f0f0c9;
   --heart-color: #d31919;
@@ -176,6 +176,7 @@ h1 {
 h2 {
   font-size: 2.25rem;
   font-family: var(--heading-typeface);
+  font-weight: thin;
   margin-bottom: 1rem;
   color: var(--h2-color);
 }
@@ -326,7 +327,12 @@ a:active {
 }
 
 .custom-navigation {
-  padding-top: 1rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  background-color: #f0f0c9;
+  border-radius: 5rem;
 }
 
 .heart {
@@ -368,7 +374,7 @@ a:active {
   margin-bottom: 4rem;
   text-align: center;
   font-weight: 400;
-  color: var(--accent-color);
+  color: var(--visited-color);
   text-transform: uppercase;
 }
 .project-description {
@@ -377,6 +383,8 @@ a:active {
   text-align: center;
   width: 60%;
   margin: 0 auto;
+  color: var(--primary-text-color);
+  font-weight: 200;
 }
 
 /* Hero 
@@ -425,15 +433,12 @@ background-size: cover;
 
 .branding-navigation {
   display: flex;
-  flex-direction: ;
+  flex-direction: row;
   justify-content: space-between;
-  padding: 2rem;
-  align-items: flex-start;
+  align-items: center;
   /*background-color: #f0f0c9;*/
   margin: 2.5rem;
   border-width: 2rem;
-  border-radius: 20rem;
-  stroke-width: 2rem;
 }
 
 .logo {
@@ -475,6 +480,12 @@ background-size: cover;
   height: 100vh;
 }
 
+.image-work-page {
+  filter: grayscale(100%);
+  border-radius: 3rem;
+  animation: enter-animation 0.8s 1;
+}
+
 @keyframes enter-animation {
   0% {
     transform: translateY(100px);
@@ -489,11 +500,6 @@ background-size: cover;
   .image-animation {
     animation: enter-animation 0.8s 1;
   }
-}
-
-.image-work-page {
-  filter: grayscale(100%);
-  border-radius: 3rem;
 }
 
 /* Work Page Layout
@@ -513,7 +519,7 @@ background-size: cover;
 /* Padding around work grid and project page */
 .portfolio,
 .project-wrapper {
-  padding: 1rem;
+  padding: 2rem;
   background-color: #f0f0c9;
   margin: 0, 2.5rem;
   border-radius: 10rem;
@@ -527,7 +533,8 @@ background-size: cover;
   grid-template-columns: repeat(auto-fit, minmax(900px, 1fr));
   grid-gap: 1rem;
   object-fit: contain;
-  padding-bottom: 10rem;
+  padding-bottom: 7rem;
+  padding-top: 10rem;
   align-items: center;
   justify-content: center;
   /* Magical, media-query-less responsiveness is achieved using the repeat() function and the auto placement keywords. To achieve wrapping, we can use the auto-fit. If you're using auto-fit, the content will stretch to fill the entire row width.  Specify a minimum width for the columns, using the minmax() function. The 1fr is what tells the browser to distribute the space between the columns so that each column equally gets one fraction of that space.  */
@@ -632,19 +639,16 @@ background-size: cover;
 */
 
 .global-footer {
+  padding: 4rem 4rem 0 4rem;
+  grid-template-columns: 1fr 1fr 1fr;
   display: grid;
-  grid-template-columns: 1fr;
   grid-gap: 3rem;
   min-height: 50vh;
   max-height: 50vh;
   background: var(--background-color-footer);
-  padding-top: 2rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-bottom: 1rem;
   background-color: #f0f0c9;
   margin: 2.5rem;
-  border-radius: 20rem;
+  border-radius: 15rem;
 }
 
 .footer-item-1 {
@@ -677,9 +681,9 @@ background-size: cover;
   grid-row: 1/2;
 }
 
-.awards-list {
+/*.awards-list {
   margin-bottom: 2rem;
-}
+}*/
 
 .project-footer {
   display: grid;
@@ -929,8 +933,8 @@ background-size: cover;
   }
 
   h2 {
-    font-size: 2.25rem;
-    font-weight: 500;
+    font-size: 3rem;
+    font-weight: 300;
   }
 
   h3 {
@@ -983,6 +987,13 @@ background-size: cover;
   .global-footer {
     padding: 4rem 4rem 0 4rem;
     grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+    grid-gap: 3rem;
+    min-height: 50vh;
+    max-height: 50vh;
+    background: var(--background-color-footer);
+    margin: 2.5rem;
+    border-radius: 15rem;
   }
 
   .about-item-1 {
@@ -994,48 +1005,72 @@ background-size: cover;
     grid-column: 1 / 2;
     grid-row: 1 / 2;
     padding: 3rem;
+    align-content: center;
+    background-color: #f0f0c9;
+    border-radius: 10rem;
   }
 
   .about-item-2 {
     grid-row: 1 / 2;
     grid-column: 2 / 3;
+    background-color: #f0f0c9;
+    border-radius: 10rem;
   }
 
   .footer-item-2 {
     grid-row: 1 / 2;
     grid-column: 2 / 3;
     padding: 3rem;
+    align-content: center;
+    background-color: #f0f0c9;
+    border-radius: 10rem;
   }
 
   .about-item-3 {
     grid-row: 1 / 2;
     grid-column: 3 / 4;
+    background-color: #f0f0c9;
+    border-radius: 10rem;
   }
 
   .footer-item-3 {
     grid-row: 1 / 2;
     grid-column: 3 / 4;
     padding: 3rem;
+    align-content: center;
+    background-color: #f0f0c9;
+    border-radius: 10rem;
   }
 
   .about-item-4 {
     grid-row: 2 / 3;
     grid-column: 1 / 4;
+    padding: 2rem;
     text-align: center;
     align-self: end;
+    background-color: #f0f0c9;
+    border-radius: 10rem;
   }
 
   .footer-item-4 {
     grid-row: 2 / 3;
     grid-column: 1 / 4;
-    text-align: center;
+    padding-top: 1rem;
+    align-content: center;
     align-self: end;
+    background-color: #f0f0c9;
+    border-radius: 10rem;
   }
 
   /* Padding around work grid and project page */
   .portfolio,
   .project-wrapper {
-    padding: 0.5rem;
+    padding: 2rem;
+    background-color: #f0f0c9;
+    margin: 0, 2.5rem;
+    border-radius: 10rem;
+    align-items: center;
+    justify-content: center;
   }
 
   /* Project Page Flex Direction on Large Devices */
