@@ -801,7 +801,7 @@ background-size: cover;
 */
 
 .holding-page {
-  background: url(../assets/branding-images/SELFPORTRAIT.png);
+  background: url(../assets/branding-images/INDEXSHPLASHART.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -816,10 +816,8 @@ background-size: cover;
   width: 100%;
   min-height: 100vh;
   /* TODO: Delete the following if you do not want a grainy gradient background on index.html. Be careful not to delete the closing } */
-  background: url(../assets/branding-images/SELFPORTRAIT.png);
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: var(--background-color-holding-page);
 }
 
 .holding-page-animation {
@@ -827,8 +825,30 @@ background-size: cover;
 }
 
 .holding-page-title {
-  font-size: 1.5rem;
+  font-size: 2rem;
+  font-weight: 200;
   color: var(--holding-page-title-color);
+  background-color: var(--background-color-about);
+  border-radius: 5rem;
+  padding: 0 2rem 0 2rem;
+  border-right: 5px solid;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 2s steps(20) cursor 0.4s step-end infinite alternate;
+}
+
+/*cursor blinking*/
+@keyframes cursor {
+  50% {
+    border-color: transparent;
+  }
+}
+
+/*typing effect*/
+@keyframes typing {
+  from {
+    width: 0;
+  }
 }
 
 .holding-page-inner-container {
