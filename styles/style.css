@@ -1018,7 +1018,7 @@ background-size: cover;
   padding: 2rem;
   background-color: white;
   margin: 0, 2.5rem;
-  border-radius: 3rem;
+  border-radius: 5rem;
   align-items: center;
   justify-content: center;
 }
@@ -1036,11 +1036,11 @@ background-size: cover;
   justify-content: center;
   padding: 2rem 4rem;
   text-align: center;
-  height: 100vh;
+  height: 25vh;
 }
 
 .grid {
-  grid-template-columns: repeat(auto-fit, minmax(990px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-gap: 1rem;
 }
 
@@ -1054,6 +1054,8 @@ background-size: cover;
   filter: grayscale(0);
 }
 
+/*about and footer*/
+
 .about {
   display: grid;
   grid-gap: 3rem;
@@ -1066,8 +1068,8 @@ background-size: cover;
 }
 
 .global-footer {
-  padding: 4rem 4rem 0 4rem;
-  grid-template-columns: 1fr 1fr 1fr;
+  padding: 1rem 1rem 0 1rem;
+  grid-template-columns: 1fr;
   display: grid;
   grid-gap: 3rem;
   min-height: 50vh;
@@ -1146,8 +1148,8 @@ background-size: cover;
 /* Project Page Flex Direction on Large Devices */
 .project-wrapper {
   flex-direction: column;
-  padding: 2rem;
-  padding-bottom: 10rem;
+  padding: 1rem;
+  padding-bottom: 5rem;
 }
 
 /* Sidebar on Large Devices */
@@ -1166,7 +1168,7 @@ background-size: cover;
 }
 
 .project-image {
-  min-height: 70vh;
+  min-height: ;
   /* TODO: Delete min-height if you want to remove space between project images on project pages on large devices. It is used for the demo page only. */
 }
 
@@ -1176,6 +1178,45 @@ background-size: cover;
 
 .project-navigation {
   justify-content: flex-start;
+}
+
+.project-aside {
+  width: 100%;
+  /* height: 65vh; */
+  /* position: -webkit-sticky;
+  position: sticky;
+  top: 5vh; */
+  padding: 1rem;
+}
+
+.project-title {
+  font-size: 2.5rem;
+  line-height: 1.2;
+  font-family: var(--project-title-typeface);
+  color: var(--project-title-color);
+  margin-bottom: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 200;
+}
+
+.project-summary {
+  font-size: 2.2rem;
+  line-height: 1.2;
+  margin-bottom: 4rem;
+  text-align: center;
+  font-weight: 400;
+  color: var(--visited-color);
+  text-transform: uppercase;
+}
+.project-description {
+  font-size: 1.21rem;
+  line-height: 1.4;
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+  color: var(--primary-text-color);
+  font-weight: 200;
 }
 
 .arrow {
