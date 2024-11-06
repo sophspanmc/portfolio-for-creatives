@@ -985,7 +985,7 @@ background-size: cover;
   }
 
   .work-title {
-    font-size: 4rem;
+    font-size: 3rem;
     margin-bottom: 5rem;
     font-weight: 200;
     color: var(--h2-color);
@@ -1004,7 +1004,7 @@ background-size: cover;
     justify-content: center;
     padding: 1rem 2rem;
     text-align: center;
-    height: 50vh;
+    height: 100vh;
   }
   .footer-item-4 {
     grid-row: 2 / 3;
@@ -1241,7 +1241,7 @@ background-size: cover;
     justify-content: center;
     padding: 1rem 2rem;
     text-align: center;
-    height: 50vh;
+    height: 100vh;
   }
   .footer-item-4 {
     grid-row: 2 / 3;
