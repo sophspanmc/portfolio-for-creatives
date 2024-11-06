@@ -739,6 +739,8 @@ background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin: 0, 2.5rem;
+  padding: 2rem;
 }
 
 /* Sidebar */
@@ -1115,7 +1117,7 @@ background-size: cover;
   .project-wrapper {
     padding: 2rem;
     background-color: white;
-    margin: 0, 2.5rem;
+
     border-radius: 10rem;
     align-items: center;
     justify-content: center;
@@ -1124,6 +1126,8 @@ background-size: cover;
   /* Project Page Flex Direction on Large Devices */
   .project-wrapper {
     flex-direction: column;
+    padding: 2rem;
+    padding-bottom: 10rem;
   }
 
   /* Sidebar on Large Devices */
