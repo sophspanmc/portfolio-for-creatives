@@ -910,11 +910,115 @@ background-size: cover;
 
 /* Medium devices (tablets, 768px and up) */
 
+/*typography*/
 @media (min-width: 200px) {
   h1 {
-    font-size: 3rem;
+    font-size: 4rem;
     line-height: 4rem;
+    font-weight: 100;
+    line-height: 4.5rem;
   }
+
+  h2 {
+    font-size: 2rem;
+    font-weight: 300;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+
+  h4 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    color: var(--h4-color);
+  }
+
+  h5 {
+    font-size: 0.95rem;
+    margin-bottom: 1rem;
+    color: var(--h5-color);
+  }
+
+  h6 {
+    font-size: 0.75rem;
+    margin-bottom: 1rem;
+    color: var(--h6-color);
+  }
+
+  h7 {
+    font-size: 9rem;
+    font-family: var(--heading-typeface);
+    float: right;
+    margin-bottom: 1rem;
+    color: var(--h1-color);
+    line-height: 10rem;
+  }
+
+  p {
+    font-size: 0.65rem;
+    font-family: var(--body-typeface);
+    line-height: 1.3;
+    margin-bottom: 1rem;
+  }
+
+  em {
+    font-style: italic;
+  }
+
+  .fineprint {
+    font-size: 0.5rem;
+  }
+
+  .hero-headline {
+    color: var(--overlay-color);
+  }
+
+  .overlay-title {
+    font-size: 2.875rem;
+    color: var(--overlay-title-color);
+    text-transform: uppercase;
+  }
+
+  .overlay-description {
+    color: var(--overlay-description-color);
+  }
+
+  .work-title {
+    font-size: 4rem;
+    margin-bottom: 5rem;
+    font-weight: 200;
+    color: var(--h2-color);
+  }
+  /*a*/
+  a:link {
+    color: var(--hyperlink-color);
+    text-decoration: none;
+  }
+
+  a:visited {
+    color: var(--visited-color);
+  }
+
+  a:hover {
+    color: var(--hover-color);
+    text-decoration: underline;
+    transition: linear;
+  }
+
+  a:focus {
+    outline: 1px solid var(--accent-color);
+  }
+
+  a:active {
+    color: var(--hover-color);
+    /* Tap on mobile */
+  }
+
+  .logo {
+    width: 3rem;
+  }
+
   .hero-headline-wrapper {
     display: flex;
     flex-direction: column;
@@ -1061,6 +1165,7 @@ background-size: cover;
     grid-column: 2 / 3;
     background: var(--background-color-about);
     border-radius: 2rem;
+    padding: 6rem;
   }
 
   .footer-item-2 {
