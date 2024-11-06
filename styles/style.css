@@ -1195,6 +1195,7 @@ background-size: cover;
   font-family: var(--project-title-typeface);
   color: var(--project-title-color);
   margin-bottom: 1rem;
+  width: 90%;
   text-align: center;
   text-transform: uppercase;
   font-weight: 200;
@@ -1210,10 +1211,10 @@ background-size: cover;
   text-transform: uppercase;
 }
 .project-description {
-  font-size: 1rem;
+  font-size: 0.8rem;
   line-height: 1.4;
   text-align: center;
-  width: 60%;
+  width: 80%;
   margin: 0 auto;
   color: var(--primary-text-color);
   font-weight: 200;
