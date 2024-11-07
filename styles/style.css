@@ -532,7 +532,7 @@ background-size: cover;
   padding: 2rem;
   background-color: white;
   margin: 0, 2.5rem;
-  border-radius: 3rem;
+  border-radius: 5rem;
   align-items: center;
   justify-content: center;
 }
@@ -1020,7 +1020,7 @@ background-size: cover;
   padding: 2rem;
   background-color: white;
   margin: 0, 2.5rem;
-  border-radius: 5rem;
+  border-radius: 2rem;
   align-items: center;
   justify-content: center;
 }
@@ -1412,10 +1412,10 @@ background-size: cover;
   .project-wrapper {
     padding: 2rem;
     background-color: white;
+    margin: 0, 2.5rem;
     border-radius: 5rem;
     align-items: center;
     justify-content: center;
-    margin: 0, 2.5;
   }
 
   /* Project Page Flex Direction on Large Devices */
