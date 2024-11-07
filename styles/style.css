@@ -495,9 +495,6 @@ background-size: cover;
   border-radius: 3rem;
   animation: enter-animation 0.8s 1;
   max-width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 @keyframes enter-animation {
@@ -575,7 +572,7 @@ background-size: cover;
   text-align: center;
 }
 
-/* 
+/*
 .overlay {
   position: absolute;
   top: 0;
@@ -594,7 +591,6 @@ background-size: cover;
   background-color: var(--overlay-color);
   transition: opacity 0.3s, visibility 0.3s;
 }
-
 */
 
 .work-page-grid-item:hover .overlay {
@@ -831,7 +827,7 @@ background-size: cover;
   text-align: center;
   align-items: center;
   width: 100%;
-  min-height: 100vh;
+  min-height: 90vh;
   /* TODO: Delete the following if you do not want a grainy gradient background on index.html. Be careful not to delete the closing } */
   background-repeat: no-repeat;
   background-size: cover;
@@ -842,12 +838,11 @@ background-size: cover;
 }
 
 .holding-page-title {
-  font-size: 2rem;
+  font-size: 4rem;
   font-weight: 200;
   color: var(--holding-page-title-color);
   background-color: var(--background-color-about);
-  border-radius: 5rem;
-  padding: 0 2rem 0 2rem;
+  padding: 1rem;
 }
 
 .holding-page-inner-container {
@@ -1648,7 +1643,7 @@ background-size: cover;
     text-align: center;
   }
 
-  /* Overlay */
+  /* 
   .overlay {
     position: absolute;
     top: 0;
@@ -1665,6 +1660,7 @@ background-size: cover;
     background-color: var(--overlay-color);
     transition: opacity 0.3s, visibility 0.3s;
   }
+  */
 
   .work-page-grid-item:hover .overlay {
     visibility: visible;
@@ -1800,7 +1796,7 @@ background-size: cover;
   /* TODO: Add or adjust styles here for large devices. */
 
   .holding-page-title {
-    font-size: 2rem;
+    font-size: 4rem;
   }
 
   .holding-page-subtitle {
