@@ -970,6 +970,25 @@ background-size: cover;
     font-style: italic;
   }
 
+  a {
+    font-size: 0.75rem;
+  }
+
+  .custom-navigation {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: var(--background-color-about);
+    border-radius: 2rem;
+  }
+
+  .background-hero-image {
+    background: url(../assets/branding-images/SELFPORTRAIT.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
   .fineprint {
     font-size: 0.5rem;
   }
@@ -1030,9 +1049,11 @@ background-size: cover;
 .grid {
   display: flex;
   flex-direction: column;
-
   width: 100%;
-  padding: 1rem;
+  padding-bottom: 5rem;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .image-work-page {
@@ -1055,7 +1076,7 @@ background-size: cover;
   justify-content: center;
   padding: 2rem 4rem;
   text-align: center;
-  height: 25vh;
+  height: 45vh;
 }
 
 /* Grayscale filter with full-colour on hover and tap */
