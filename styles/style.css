@@ -912,7 +912,7 @@ background-size: cover;
 /* Medium devices (tablets, 768px and up) */
 
 /*typography*/
-@media (min-width: 300px) {
+@media only screen and (max-width: 768px) {
   h1 {
     font-size: 4rem;
     line-height: 4rem;
@@ -1230,7 +1230,7 @@ background-size: cover;
 
 /*images*/
 
-@media (min-width: 600px) {
+@media (min-width: 768) {
   h1 {
     font-size: 5rem;
     line-height: 8rem;
