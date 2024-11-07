@@ -1041,16 +1041,6 @@ background-size: cover;
   height: 25vh;
 }
 
-.grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(900px, 1fr));
-  object-fit: contain;
-  padding-bottom: 4rem;
-  padding-top: 1rem;
-  align-items: center;
-  justify-content: center;
-}
-
 /* Grayscale filter with full-colour on hover and tap */
 .work-page-grid-item a.grayscale img {
   filter: grayscale(100);
@@ -1181,7 +1171,7 @@ background-size: cover;
 }
 
 .project-image {
-  min-height: ;
+  min-height: 2rem;
   /* TODO: Delete min-height if you want to remove space between project images on project pages on large devices. It is used for the demo page only. */
 }
 
@@ -1283,6 +1273,10 @@ background-size: cover;
 
   h3 {
     font-size: 1.625rem;
+  }
+
+  p {
+    font-size: 1rem;
   }
 
   .logo {
@@ -1418,9 +1412,10 @@ background-size: cover;
   .project-wrapper {
     padding: 2rem;
     background-color: white;
-    border-radius: 3rem;
+    border-radius: 5rem;
     align-items: center;
     justify-content: center;
+    margin: 0, 2.5;
   }
 
   /* Project Page Flex Direction on Large Devices */
