@@ -877,6 +877,9 @@ background-size: cover;
 .error-page {
   background-color: white;
 }
+.error-page-title {
+  color: var(--h2-color);
+}
 /* The best 404 pages have become an art in themselves. Your 404 error page is an opportunity to make a memorable impression on your visitors when they don’t land exactly where they hoped. */
 
 /*
