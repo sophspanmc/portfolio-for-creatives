@@ -555,10 +555,11 @@ background-size: cover;
 }
 
 .work-page-grid-item {
-  width: 100%;
-  height: auto;
-  position: relative;
-  border-radius: 20rem;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 10vh;
   /* Required to contain overlay size */
 }
 
@@ -787,6 +788,7 @@ background-size: cover;
   display: flex;
   align-items: center;
   justify-content: center;
+  min-height: 10vh;
 }
 
 .text-section {
@@ -1018,7 +1020,7 @@ background-size: cover;
 .portfolio,
 .project-wrapper {
   width: 100%;
-  padding: 2rem;
+
   background-color: white;
   margin: 0, 2.5rem;
   border-radius: 2rem;
@@ -1027,14 +1029,19 @@ background-size: cover;
 }
 
 .grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(768px, 1fr));
-  grid-gap: 1rem;
-  object-fit: contain;
-  padding-bottom: 7rem;
-  padding-top: 3rem;
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  padding: 1rem;
+}
+
+.image-work-page {
+  max-width: 100%;
+  display: flex;
   align-items: center;
   justify-content: center;
+  min-height: 10vh;
 }
 
 .hero {
@@ -1101,7 +1108,10 @@ background-size: cover;
   align-content: center;
   background-color: var(--background-color-about);
   border-radius: 5rem;
-  margin: 1rem;
+  margin-top: 3rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
 }
 
 .about-item-2 {
@@ -1595,11 +1605,11 @@ background-size: cover;
   /* Defining the work page grid */
 
   .work-page-grid-item {
-    width: 100%;
-    height: auto;
-    position: relative;
-    min-width: 300px;
-    background-size: cover;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 10vh;
     /* Required to contain overlay size */
   }
 
