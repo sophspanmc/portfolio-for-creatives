@@ -1040,8 +1040,13 @@ background-size: cover;
 }
 
 .grid {
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  grid-gap: 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(900px, 1fr));
+  object-fit: contain;
+  padding-bottom: 4rem;
+  padding-top: 1rem;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Grayscale filter with full-colour on hover and tap */
@@ -1195,7 +1200,6 @@ background-size: cover;
   font-family: var(--project-title-typeface);
   color: var(--project-title-color);
   margin-bottom: 1rem;
-  width: 90%;
   text-align: center;
   text-transform: uppercase;
   font-weight: 200;
