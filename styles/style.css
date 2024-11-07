@@ -575,7 +575,7 @@ background-size: cover;
   text-align: center;
 }
 
-/* Overlay */
+/* 
 .overlay {
   position: absolute;
   top: 0;
@@ -594,6 +594,8 @@ background-size: cover;
   background-color: var(--overlay-color);
   transition: opacity 0.3s, visibility 0.3s;
 }
+
+*/
 
 .work-page-grid-item:hover .overlay {
   visibility: visible;
@@ -1799,6 +1801,10 @@ background-size: cover;
 
   .holding-page-title {
     font-size: 2rem;
+  }
+
+  .holding-page-subtitle {
+    color: var(--h2-color);
   }
 
   h2 {
