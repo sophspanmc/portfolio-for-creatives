@@ -166,11 +166,11 @@ svg {
 */
 
 h1 {
-  font-size: 10rem;
+  font-size: 8rem;
   font-family: var(--heading-typeface);
   margin-bottom: 1rem;
   color: var(--h1-color);
-  line-height: 15rem;
+  line-height: 11rem;
   font-weight: 100;
 }
 
@@ -1552,7 +1552,7 @@ background-size: cover;
     justify-content: center;
     padding: 2rem 4rem;
     text-align: center;
-    height: 150vh;
+    height: 95vh;
   }
 
   .hero-icon {
