@@ -94,7 +94,7 @@ html {
   --h5-color: white;
   --h6-color: white;
   --primary-text-color: black;
-  --holding-page-title-color: #2c51d7;
+  --holding-page-title-color: white;
   --accent-color: #f24333;
   --overlay-color: #f24333;
   --overlay-title-color: white;
@@ -108,7 +108,7 @@ html {
   --project-sidebar-background-color: #f0f0c9;
   --project-sidebar-text-color: #f0f0c9;
   --heart-color: #d31919;
-  --holding-page-footer-color: #2c51d7;
+  --holding-page-footer-color: white;
   --text-selection-background-color: #ff0033;
   --linear-gradient-color-1: #ff057c;
   --linear-gradient-color-2: #8d0b93;
@@ -815,7 +815,7 @@ background-size: cover;
 */
 
 .holding-page {
-  background-color: #2c51d7;
+  background-color: white;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -863,6 +863,7 @@ background-size: cover;
 
 .animatedlogo {
   width: 35rem;
+  margin-top: 8rem;
 }
 
 /*
