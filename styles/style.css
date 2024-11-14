@@ -86,7 +86,7 @@ html {
   --background-color-about: white;
   --background-color-footer: #2c51d7;
   --alt-background-color: #000000;
-  --background-color-holding-page: #2c51d7;
+  --background-color-holding-page: white;
   --h1-color: white;
   --h2-color: #2c51d7;
   --h3-color: white;
@@ -841,8 +841,6 @@ background-size: cover;
 .holding-page-title {
   font-size: 4rem;
   font-weight: 200;
-  color: var(--holding-page-title-color);
-  background-color: var(--background-color-about);
   padding: 1rem;
 }
 
@@ -861,6 +859,10 @@ background-size: cover;
   font-size: 0.8rem;
   color: var(--accent-color);
   margin-bottom: 0;
+}
+
+.animatedlogo {
+  width: 35rem;
 }
 
 /*
