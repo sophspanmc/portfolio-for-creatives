@@ -86,7 +86,7 @@ html {
   --background-color-about: white;
   --background-color-footer: #2c51d7;
   --alt-background-color: #000000;
-  --background-color-holding-page: #f0f0c9;
+  --background-color-holding-page: #2c51d7;
   --h1-color: white;
   --h2-color: #2c51d7;
   --h3-color: white;
@@ -94,7 +94,7 @@ html {
   --h5-color: white;
   --h6-color: white;
   --primary-text-color: black;
-  --holding-page-title-color: #2c51d7;
+  --holding-page-title-color: white;
   --accent-color: #f24333;
   --overlay-color: #f24333;
   --overlay-title-color: white;
